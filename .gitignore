@@ -1,65 +1,54 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
-
-# C extensions
+*$py.class
 *.so
-
-# Distribution / packaging
-bin/
+.Python
 build/
 develop-eggs/
 dist/
+downloads/
 eggs/
+.eggs/
 lib/
 lib64/
 parts/
 sdist/
 var/
+wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
 
-# Unit test / coverage reports
-.tox/
-.coverage
-.cache
-nosetests.xml
-coverage.xml
-
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
 .project
 .pydevproject
+.settings/
 
-# Rope
-.ropeproject
+# Output files
+output/
+*.csv
+*.xlsx
+*.xls
 
-# Django stuff:
-*.log
-*.pot
-
-# Sphinx documentation
-docs/_build/
-
-# Macos
+# OS
 .DS_Store
+Thumbs.db
+*.log
+.directory
 
-# Test
-test.py
-*.test.py
-
-# Env
-# .env
-.env.prod
-.vercel
-
-# Virtual Environment
-/venv
+# Project specific
+*.spec
